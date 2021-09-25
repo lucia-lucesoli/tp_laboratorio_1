@@ -91,13 +91,13 @@ int main()
                     printf("b) La resta entre los operandos es = %.2f \n\n",resta(numero1,numero2));
                     if(numero2 == 0)
                     {
-                        printf("La division entre los operandos es = Error, no es posible dividir por cero.\n\n");
+                        printf("c) La division entre los operandos es = Error, no es posible dividir por cero.\n\n");
                     }else
                     {
-                        printf("La division entre los operandos es= %.2f \n\n",division(numero1,numero2));
+                        printf("c) La division entre los operandos es= %.2f \n\n",division(numero1,numero2));
                     }
-                    printf("La multiplicacion entre los operandos es = %.2f \n\n",multiplicacion(numero1,numero2));
-                    printf("El factoreo de los opreandos es:\n");
+                    printf("d) La multiplicacion entre los operandos es = %.2f \n\n",multiplicacion(numero1,numero2));
+                    printf("e) El factoreo de los opreandos es:\n");
                     printf("Factoreo del primero = %d\n",factoreo(numero1));
                     printf("Factoreo del segundo = %d\n\n",factoreo(numero2));
                 }else

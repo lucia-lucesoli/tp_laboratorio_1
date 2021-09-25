@@ -47,6 +47,7 @@ int main()
         printf("4. Informar los resultados de las operaciones.\n");
         printf("5. Salir.\n\n\n");
         printf("Ingrese opcion: ");
+        fpurge(stdin);
         scanf("%d", &opcion);
 
         switch(opcion)
@@ -78,9 +79,9 @@ int main()
             	{
             		printf("Error, primero debe ingresar los dos operandos\n");
             	}
+            	system("read -n1 -p ' ' key");
+
                 break;
-
-
             case 4:
                 if(flag3 == 1)
                 {
@@ -103,12 +104,14 @@ int main()
                 {
                     printf("Error, primero debe calcular los dos operandos\n");
                 }
+                system("read -n1 -p ' ' key");
+
                 break;
 
             case 5:
                 system("clear");
                 printf("Desea salir? (s/n) \n");
-                fflush(stdin);
+                fpurge(stdin);
                 scanf("%c",&salir);
                 break;
 
@@ -116,10 +119,6 @@ int main()
                 printf("Error, indique la opcion que desea realizar.");
                 break;
         }
-
-
-
-
     }
     while(salir != 's');
 

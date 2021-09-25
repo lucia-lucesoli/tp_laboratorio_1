@@ -1,0 +1,9 @@
+LaunchTargetManager/org.eclipse.cdt.docker.launcher.launchTargetType.container,[virtual-docker.martifactory.io;busybox_latest]/arch=x86_64
+LaunchTargetManager/org.eclipse.cdt.docker.launcher.launchTargetType.container,[virtual-docker.martifactory.io;busybox_latest]/connection_uri=unix\:///var/run/docker.sock
+LaunchTargetManager/org.eclipse.cdt.docker.launcher.launchTargetType.container,[virtual-docker.martifactory.io;busybox_latest]/image_id=virtual-docker.martifactory.io/busybox\:latest
+LaunchTargetManager/org.eclipse.cdt.docker.launcher.launchTargetType.container,[virtual-docker.martifactory.io;busybox_latest]/name=[virtual-docker.martifactory.io/busybox_latest]
+LaunchTargetManager/org.eclipse.cdt.docker.launcher.launchTargetType.container,[virtual-docker.martifactory.io;busybox_latest]/os=linux-container
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=macosx
+eclipse.preferences.version=1
